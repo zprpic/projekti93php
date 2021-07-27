@@ -46,6 +46,18 @@ echo 'ceil(2.4)' . ceil(2.4).'<br>';
 
 // Formatting numbers
 $number = 123456789.12345; // 
-echo number_format($number, 2, '.', ',');
+echo 'number_format($number, 2, ',', '.')' . number_format($number, 2, '.', ',');
+
+$num = 3;
+var_dump($num);
+$let = strval($num);
+var_dump($let);
+$num = 4;
+var_dump($num);
+var_dump($let);
+$let = strval($num);
+var_dump(($let));
+
+
 
 // https://www.php.net/manual/en/ref.math.php
